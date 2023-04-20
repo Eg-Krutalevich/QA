@@ -1,0 +1,177 @@
+@media (min-width: 200px) {
+    body {
+        color: #c1c1c1;
+        background-color: #ffffff;
+        font: 25px Myriad Pro, sans-serif;
+        margin: 0 auto;
+    }
+    .header {
+        margin-left: -180px;
+        font-weight: bold;
+        font-size: 10px;
+        height: 94px;
+        width: 500px;
+    }
+    .wrapper {
+        padding-left: 265px;
+        padding-right: 265px;
+        max-width: 1700px;
+        margin: 0 auto;
+    }
+    .navigation {
+        display: flex;
+    }
+    .nav, .newNav {
+        display: flex;
+        list-style-type: none;
+        padding-top: -15px;
+    }
+    .nav>li {
+        padding-top: 50px;
+        padding-right: -20px;
+        padding-left: 140px;
+        text-align: center;
+    }
+    .nav>li>a {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #868686;
+    }
+    .newNav>li {
+        text-align: center;
+        font: 9px OpenSans, sans-serif;
+        margin-top: -60px;
+        margin-left: 95px;
+        margin-right: 100px;
+    }
+    .circle {
+        margin-top: 25px;
+        margin-left: 15px;
+        width: 50px;
+        height: 49px;
+    }
+    .banner {
+        background-color: #709dca;
+        height: 590px;
+        width: 1735px;
+    }
+    .rect {
+        padding-right: 125px;
+        padding-left: 125px;
+    }
+    .contact {
+        margin: -95px 0 0 150px;
+        position: absolute;
+    }
+    .email {
+        margin: -95px 0 0 120px;
+        position: absolute;
+    }
+    .phone {
+        margin: -95px 0 0 95px;
+        position: absolute;
+    }
+    .computer {
+        margin-top: 70px;
+        padding-left: 500px;
+    }
+    .page {
+        margin-top: 350px;
+        margin-left: -135px;
+    }
+    .ellipse {
+        margin-top: -220px;
+        margin-left: 660px;
+    }
+    h1 {
+        padding-top: 110px;
+        padding-left: -30px;
+        text-align: center;
+        color: #ffff;
+        text-transform: uppercase;
+    }
+    h2::before {
+        text-align: center;
+        margin-left: 100px;
+        text-transform: uppercase;
+    }
+    h2 {
+        font: 14px OpenSans, sans-serif;
+        color: #fff7e8;
+        margin: -600px 0 0 1000px;
+        font-stretch: 150%;
+    }
+    h3 {
+        margin: -45px 0 0 85px;
+        font: 11px OpenSans, sans-serif;
+        color: #394b50;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    h4 {
+        margin-left: 300px;
+        margin-top: -40px;
+        font: 21px OpenSans, sans-serif;
+        text-align: center;
+        color: #394b50;
+    }
+    h5 {
+        margin-top: 20px;
+        margin-left: 85px;
+        font: 9px OpenSans, sans-serif;
+        color: #c1c1c1;
+    }
+    h6 {
+        margin-top: 100px;
+        margin-left: 320px;
+        text-align: center;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #394b50;
+    }
+    p {
+        font: 14px OpenSans, sans-serif;
+        text-align: center;
+        margin-left: 50px;
+        margin-top: -35px;
+        color: #ffff;
+        position: relative;
+    }
+    .work {
+        margin-left: -485px;
+        margin-top: 150px;
+        height: 898px;
+    }
+    .price {
+        margin-top: -375px;
+        width: 1700px;
+        background: #e7edf3;
+        height: 1130px;
+    }
+    .clients {
+        height: 910px;
+        width: 1675px;
+        background: #ffc155;
+    }
+    .basic {
+        height: 440px;
+        margin: 60px 0 0 -10px;
+    }
+    .premium {
+        height: 500px;
+        margin: -300px 0 0 380px;
+    }
+    .gold {
+        height: 440px;
+        margin: -120px 0 0 775px;
+    }
+    footer {
+        background-color: #709dca;
+        height: 35px;
+        text-align: center;
+        padding-top: 22.5px;
+        font: 12px OpenSans, sans-serif;
+        color: #e2ebf4;
+        margin: 60px 0 0 0;
+    }
+}
